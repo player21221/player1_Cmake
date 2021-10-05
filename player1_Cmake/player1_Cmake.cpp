@@ -19,6 +19,10 @@ int main()
 	cout << "Пожалуйста, введите еще значение y" << endl;
 	cin >> y;
 
+	y = x + y;
+	cout << y;
+	cout<<" - это новое значение игрека."
+
 	cout << "Hello CMake." << endl;
 
 
