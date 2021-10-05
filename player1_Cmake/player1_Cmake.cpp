@@ -3,12 +3,13 @@
 
 #include "player1_Cmake.h"
 #include <clocale>
+//#include"math.h"
 
 using namespace std;
 
 int x = 3;
 int y = 2;
-
+float z = 0;
 int main()
 {
 	setlocale(0, "Russian");
@@ -20,6 +21,10 @@ int main()
 	cin >> y;
 
 	cout << "Hello CMake." << endl;
+
+	z = sin(x + y);
+	cout << "Пусть будет значение зет, равное синусу суммы икса и игрека. тогда это самое зет будет равно - " <<endl;
+	cout << z <<endl;
 
 
 	if (x < 4) {
