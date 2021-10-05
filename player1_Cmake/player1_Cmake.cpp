@@ -21,7 +21,8 @@ int main()
 
 	y = x + y;
 	cout << y;
-	cout << " - это новое значение игрека.";
+	cout << " - это новое значение игрека." << endl;
+
 
 	cout << "Hello CMake." << endl;
 
