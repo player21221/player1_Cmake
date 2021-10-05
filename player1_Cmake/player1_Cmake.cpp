@@ -7,6 +7,7 @@
 using namespace std;
 
 int x = 3;
+int y = 2;
 
 int main()
 {
@@ -15,6 +16,9 @@ int main()
 	cout << "Вводите значение x и нажимайте Enter. - " << endl;
 	cin >> x;
 	cout << "" << endl;
+	cout << "Пожалуйста, введите еще значение y" << endl;
+	cin >> y;
+
 	cout << "Hello CMake." << endl;
 
 
